@@ -30,7 +30,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='ui container'>
+      <div className='ui container' style={{ paddingTop: '15px' }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className='ui grid'>
           <div className='ui row'>
